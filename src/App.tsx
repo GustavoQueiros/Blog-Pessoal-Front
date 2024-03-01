@@ -1,10 +1,9 @@
 
 import './App.css';
-import 'react-toastify/dist/ReactToastify.css';
+
 import Login from './pages/login/Login';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { AuthProvider } from './contexts/AuthContexts';
-import { ToastContainer } from 'react-toastify';
 import Cadastro from './pages/cadastro/Cadastro';
 import Home from './pages/home/Home';
 import Footer from './components/footer/Footer';
@@ -16,6 +15,7 @@ import Perfil from './pages/perfil/Perfil';
 import Navbar from './components/navbar/NavBar';
 import ListaPostagens from './components/postagens/cardPostagem/listaPostagens/ListaPostagens';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   
